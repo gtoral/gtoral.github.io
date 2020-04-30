@@ -1,0 +1,239 @@
+body {
+	margin:0;
+	padding-top:50px;
+	padding-bottom:50px;
+	background:#e9e9e9;
+	font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
+	color: black;
+}
+
+p {
+	margin:0;
+	padding-bottom:10px;
+}
+
+h1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+    font-size: 35px;
+    font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
+    font-weight:bolder;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align:center;
+    font-size: 20px;
+    font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
+}
+
+h3 {
+	margin-top:5px;
+	font-size: 15px;
+	font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
+}
+
+#page {
+  width:950px;
+	margin: 0px auto;
+	padding: 25px;
+	background:#ffffff;
+	box-shadow: 2px 2px 1px 1px #C2C0BF;
+	font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
+}
+
+.left_column {
+	float:left;
+	display:inline-block;
+	width: 200px;
+  font-size:15px;
+  margin:15px;
+}
+
+.left_column2 {
+	float:left;
+	display:inline-block;
+	width: 300px;
+  font-size:15px;
+  margin-top:0;
+  margin-left:15px;
+}
+
+.center_column {
+	float:left;
+	width: 680px;
+	font-size:15px;
+	margin-left:25px;
+}
+
+.main_column {
+	float:left;
+	width: 930px;
+	font-size:15px;
+	margin-left:25px;
+}
+
+.center_column2 {
+	float:left;
+	width: 350px;
+	font-size:15px;
+	margin-left:25px;
+}
+
+#credits {
+	clear:both;
+	font-size:10px !important;
+	text-align:center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+
+#nav_container {
+    text-align:center;
+}
+
+#nav_container ul {
+	display:inline-block;
+	list-style-type: none;
+}
+
+#nav_container li {
+    list-style-type:none;
+    display:inline-block;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+a {
+    text-decoration:none;
+    color: #A31F34;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+#nav_container li a {
+    display:inline-block;
+    color: #A31F34;
+    font-weight:bolder;
+}
+
+blockquote {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+prez {
+    display: block;
+    margin-left: 50px;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: white;
+  cursor: pointer;  
+  padding: 0px;
+  margin-left: 50px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+   color:black;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  margin-left: 50px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 15px;
+  float: center;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+#button{
+  border: 2px solid #A31F34;
+  color: #A31F34;
+  border-radius: 8px;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 1px 1px;
+}
+
+#button:hover{
+  border: 2px solid #A31F34;
+  color:white;
+  background-color: #A31F34;
+  border-radius: 8px;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 1px 1px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.mini_column {
+  float: left;
+  align-content: center;
+  width: 20%;
+  padding: 5px;
+  transition: all .2s ease-in-out;
+}
+.mini_column:hover {
+    transform: scale(1.15);
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  justify-content: center;
+  display:inline-block
+}
+
