@@ -72,7 +72,7 @@ h3 {
 
 .main_column {
 	float:left;
-	width: 930px;
+	width: 950px;
 	font-size:15px;
 	margin-left:25px;
 }
@@ -155,7 +155,7 @@ prez {
   cursor: pointer;  
   padding: 0px;
   margin-left: 50px;
-  width: 100%;
+  width: 95%;
   border: none;
   text-align: left;
   outline: none;
