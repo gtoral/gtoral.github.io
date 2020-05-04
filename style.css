@@ -1,7 +1,8 @@
 body {
 	margin:0;
 	padding-top:50px;
-	padding-bottom:50px;
+	padding-left:15px;
+	padding-right:15px;
 	background:#e9e9e9;
 	font-family: "Avenir", "Avant Garde",  "Century Gothic", "AppleGothic", sans-serif;
 	color: black;
@@ -118,6 +119,15 @@ img {
     margin-right:20px;
     margin-top:10px;
     margin-bottom:10px;
+}
+
+a.title {
+    text-decoration:none;
+    color: black;
+}
+
+a.title:hover {
+    text-decoration:none;
 }
 
 a {
