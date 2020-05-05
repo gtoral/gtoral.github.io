@@ -146,6 +146,10 @@ a:hover {
     font-weight:bolder;
 }
 
+#nav_container li a:hover {
+    text-decoration:none;
+}
+
 blockquote {
     display: block;
     margin-top: 0em;
